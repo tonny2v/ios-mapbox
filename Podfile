@@ -4,7 +4,7 @@ platform :ios, '12.1'
 target 'cocoa-test' do
 
   use_frameworks!
-pod 'MapboxNavigation', '~> 0.16'
+pod 'MapboxNavigation', '~> 0.29'
 
 #  target 'testMapboxTests' do
     #inherit! :search_paths

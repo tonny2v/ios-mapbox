@@ -1,26 +1,26 @@
 PODS:
-  - Mapbox-iOS-SDK (4.7.0)
-  - MapboxCoreNavigation (0.27.0):
-    - MapboxDirections.swift (~> 0.26.0)
-    - MapboxMobileEvents (~> 0.6.0)
-    - MapboxNavigationNative (~> 3.4.6)
+  - Mapbox-iOS-SDK (4.9.0)
+  - MapboxCoreNavigation (0.29.1):
+    - MapboxDirections.swift (~> 0.27.0)
+    - MapboxMobileEvents (~> 0.8.1)
+    - MapboxNavigationNative (~> 5.0.0)
     - Turf (~> 0.3.0)
-  - MapboxDirections.swift (0.26.0):
+  - MapboxDirections.swift (0.27.2):
     - Polyline (~> 4.2)
-  - MapboxMobileEvents (0.6.0)
-  - MapboxNavigation (0.27.0):
+  - MapboxMobileEvents (0.8.1)
+  - MapboxNavigation (0.29.1):
     - Mapbox-iOS-SDK (~> 4.3)
-    - MapboxCoreNavigation (= 0.27.0)
+    - MapboxCoreNavigation (= 0.29.1)
     - MapboxSpeech (~> 0.1.0)
     - Solar (~> 2.1)
-  - MapboxNavigationNative (3.4.11)
+  - MapboxNavigationNative (5.0.0)
   - MapboxSpeech (0.1.0)
   - Polyline (4.2.0)
   - Solar (2.1.0)
   - Turf (0.3.0)
 
 DEPENDENCIES:
-  - MapboxNavigation (~> 0.16)
+  - MapboxNavigation (~> 0.29)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -36,17 +36,17 @@ SPEC REPOS:
     - Turf
 
 SPEC CHECKSUMS:
-  Mapbox-iOS-SDK: d8f60f4cbfcd1bfcb3b68d07ac38135d2880d97d
-  MapboxCoreNavigation: 2db374b84cbc570c34d65c6f43a046a26f87e3a6
-  MapboxDirections.swift: a9c923dc7d1a36b8ecc6cbdc77a22f932dc518f3
-  MapboxMobileEvents: 0218869f556a7fdac9f869e2f9c10e8c6dd7eed5
-  MapboxNavigation: 983638887ace6ebae6e918836ff8a8b65fd254af
-  MapboxNavigationNative: 9a1c0215eb1ee0d4757e03d79566d4eff64a72b0
+  Mapbox-iOS-SDK: 225036950837cbe408e6b333e51cd6001c122499
+  MapboxCoreNavigation: 7a6dea9a19dea2ad3247f43e6b6854f4afe3341e
+  MapboxDirections.swift: b67d0b0bd0ac46906642baba38f4be777c50d68e
+  MapboxMobileEvents: 0f30fe39687f26fd8f255335053023ba039a0392
+  MapboxNavigation: 6093c01352cfda65ea7a15b5588e024f66d4bae2
+  MapboxNavigationNative: bb220f45f93123adae2c05dfb74080773af128f3
   MapboxSpeech: d7569ee91dd8bdca3ef8d19b6828e8754c1073ec
   Polyline: 3d69f75bb136357e27291d439d0436c6ebda57a4
   Solar: 2dc6e7cc39186cb0c8228fa08df76fb50c7d8f24
   Turf: c6bdf62d6a70c647874f295dd1cf4eefc0c3e9e6
 
-PODFILE CHECKSUM: 26af61b4e8f43b141c77e904be4540e59b6e6858
+PODFILE CHECKSUM: 2c346be6e28f36e5b22ea04dd3a4ab2ef6f1db45
 
 COCOAPODS: 1.5.3
