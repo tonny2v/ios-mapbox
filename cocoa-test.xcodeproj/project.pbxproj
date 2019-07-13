@@ -52,6 +52,7 @@
 		E1B67C4721DA51E900B5E689 /* cocoa-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cocoa-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1B67C4B21DA51E900B5E689 /* cocoa_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cocoa_testUITests.swift; sourceTree = "<group>"; };
 		E1B67C4D21DA51E900B5E689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1D7493422D41D640099AA13 /* Pods */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pods; sourceTree = "<group>"; };
 		F75C300A92AEFCD0BE99BEBA /* Pods_cocoa_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cocoa_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -84,6 +85,7 @@
 		90F54D14676CEFF0DEA8B709 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E1D7493422D41D640099AA13 /* Pods */,
 				F75C300A92AEFCD0BE99BEBA /* Pods_cocoa_test.framework */,
 			);
 			name = Frameworks;
@@ -222,6 +224,7 @@
 				TargetAttributes = {
 					E1B67C2521DA51E800B5E689 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -230,10 +233,12 @@
 					};
 					E1B67C3B21DA51E900B5E689 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = E1B67C2521DA51E800B5E689;
 					};
 					E1B67C4621DA51E900B5E689 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = E1B67C2521DA51E800B5E689;
 					};
 				};
@@ -546,7 +551,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "tit.cocoa-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -565,7 +570,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "tit.cocoa-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -585,7 +590,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "tit.cocoa-testTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cocoa-test.app/cocoa-test";
 			};
@@ -606,7 +611,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "tit.cocoa-testTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cocoa-test.app/cocoa-test";
 			};
@@ -626,7 +631,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "tit.cocoa-testUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "cocoa-test";
 			};
@@ -646,7 +651,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "tit.cocoa-testUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "cocoa-test";
 			};

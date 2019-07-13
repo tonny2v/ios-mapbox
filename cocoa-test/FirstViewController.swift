@@ -87,6 +87,7 @@ class FirstViewController: UIViewController, CLLocationManagerDelegate, MGLMapVi
     func calculateRoute(from originCoord: CLLocationCoordinate2D, to destinationCoord: CLLocationCoordinate2D, completion: @escaping (Route?, Error?) -> Void){
         let origin = Waypoint(coordinate: originCoord, coordinateAccuracy: -1, name: "Start")
         let destination = Waypoint(coordinate: destinationCoord, coordinateAccuracy: -1, name: "End")
+        
         let options = NavigationRouteOptions(waypoints: [origin, destination], profileIdentifier: .automobileAvoidingTraffic)
         _ = Directions.shared.calculate(options, completionHandler: {(waypoints, routes, error) in
             self.directionsRoute = routes?.first

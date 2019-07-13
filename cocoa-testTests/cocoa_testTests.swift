@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import cocoa_test
+
 
 class cocoa_testTests: XCTestCase {
 

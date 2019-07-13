@@ -1,26 +1,26 @@
 PODS:
-  - Mapbox-iOS-SDK (4.9.0)
-  - MapboxCoreNavigation (0.29.1):
-    - MapboxDirections.swift (~> 0.27.0)
-    - MapboxMobileEvents (~> 0.8.1)
-    - MapboxNavigationNative (~> 5.0.0)
+  - Mapbox-iOS-SDK (5.1.0)
+  - MapboxCoreNavigation (0.35.0):
+    - MapboxDirections.swift (~> 0.28.0)
+    - MapboxMobileEvents (~> 0.9.3)
+    - MapboxNavigationNative (~> 6.2.1)
     - Turf (~> 0.3.0)
-  - MapboxDirections.swift (0.27.2):
+  - MapboxDirections.swift (0.28.0):
     - Polyline (~> 4.2)
-  - MapboxMobileEvents (0.8.1)
-  - MapboxNavigation (0.29.1):
-    - Mapbox-iOS-SDK (~> 4.3)
-    - MapboxCoreNavigation (= 0.29.1)
+  - MapboxMobileEvents (0.9.4)
+  - MapboxNavigation (0.35.0):
+    - Mapbox-iOS-SDK (~> 5.1)
+    - MapboxCoreNavigation (= 0.35.0)
     - MapboxSpeech (~> 0.1.0)
     - Solar (~> 2.1)
-  - MapboxNavigationNative (5.0.0)
-  - MapboxSpeech (0.1.0)
-  - Polyline (4.2.0)
+  - MapboxNavigationNative (6.2.1)
+  - MapboxSpeech (0.1.1)
+  - Polyline (4.2.1)
   - Solar (2.1.0)
   - Turf (0.3.0)
 
 DEPENDENCIES:
-  - MapboxNavigation (~> 0.29)
+  - MapboxNavigation (~> 0.35.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -36,17 +36,17 @@ SPEC REPOS:
     - Turf
 
 SPEC CHECKSUMS:
-  Mapbox-iOS-SDK: 225036950837cbe408e6b333e51cd6001c122499
-  MapboxCoreNavigation: 7a6dea9a19dea2ad3247f43e6b6854f4afe3341e
-  MapboxDirections.swift: b67d0b0bd0ac46906642baba38f4be777c50d68e
-  MapboxMobileEvents: 0f30fe39687f26fd8f255335053023ba039a0392
-  MapboxNavigation: 6093c01352cfda65ea7a15b5588e024f66d4bae2
-  MapboxNavigationNative: bb220f45f93123adae2c05dfb74080773af128f3
-  MapboxSpeech: d7569ee91dd8bdca3ef8d19b6828e8754c1073ec
-  Polyline: 3d69f75bb136357e27291d439d0436c6ebda57a4
+  Mapbox-iOS-SDK: 4106f0f6808a0362233a703fb22369b3af3e9b8c
+  MapboxCoreNavigation: 89eadd5864a32144043231247fc3bd6900843213
+  MapboxDirections.swift: bec8771badfbdd55a0194649a4194b2c2cb15b96
+  MapboxMobileEvents: d3ca65878823fb635e200bb5a1fc083369590818
+  MapboxNavigation: 718528e4594c87e2702b6bb9e64a863975b00ccf
+  MapboxNavigationNative: 11dc22140f4698d3f26989f2b6379dc81ef0d4c1
+  MapboxSpeech: 59b3984d3f433a443d24acf53097f918c5cc70f9
+  Polyline: 0e9890790292741c8186201a536b6bb6a78d02dd
   Solar: 2dc6e7cc39186cb0c8228fa08df76fb50c7d8f24
   Turf: c6bdf62d6a70c647874f295dd1cf4eefc0c3e9e6
 
-PODFILE CHECKSUM: 2c346be6e28f36e5b22ea04dd3a4ab2ef6f1db45
+PODFILE CHECKSUM: 50442412abdc0c39e7522a47c66d8b61d989e3d7
 
 COCOAPODS: 1.5.3
